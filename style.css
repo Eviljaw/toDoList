@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-section {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50vh;
+}
+
+.todo {
+  border: 1px solid black;
+}
