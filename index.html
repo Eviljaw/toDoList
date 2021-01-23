@@ -7,8 +7,19 @@
   </head>
 
   <body>
+    <div class="welcome">
+      <img class="js-welcome" src="img/welcome.gif" />
+      <form class="js-welcome-input">
+        <span class="welcome-message">Welcome,</span>
+        <input type="text" placeholder="What's Your Name?" />
+      </form>
+    </div>
     <main>
       <div class="todo-section">
+        <div class="todo-header">
+          <span class="todo-header__content js-toDoHeader"></span>
+          <span class="todo-header__content">Check Your To Do List.</span>
+        </div>
         <div class="todo-container">
           <ul class="js-toDoList"></ul>
         </div>
@@ -20,7 +31,9 @@
       </div>
     </main>
 
-    <script src="js/toDo.js"></script>
+    <script src="js/getname.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

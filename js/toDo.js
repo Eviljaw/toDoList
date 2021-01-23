@@ -28,12 +28,11 @@ function drawLineThrough(event) {
     if(currentClass === "fa-square"){
         event.target.classList.remove("fa-square");
         event.target.classList.add("fa-check-square");
-        childSpan.classList.add("line-through");
+        childSpan.classList.add("line-through", "finish-color");
     }else{
         event.target.classList.remove("fa-check-square");
         event.target.classList.add("fa-square");
-        childSpan.classList.remove("line-through");
-
+        childSpan.classList.remove("line-through", "finish-color");
     }
     
 
