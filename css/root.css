@@ -1,4 +1,7 @@
 :root {
-  --width-todolist: 250px;
-  --heigth-todolist: 300px;
+  --width-widget: 250px;
+  --height-clock: 100px;
+  --heigth-weather: 150px;
+  --heigth-todolist: 400px;
+  --color-widget: rgba(0, 0, 0, 0.2);
 }

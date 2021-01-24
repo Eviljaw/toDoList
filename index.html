@@ -14,7 +14,26 @@
         <input type="text" placeholder="What's Your Name?" />
       </form>
     </div>
+
     <main>
+      <div class="clock-section">
+        <div class="js-clock">
+          <span class="clock-times">00:00:00</span>
+          <span class="clock-days"></span>
+        </div>
+      </div>
+
+      <div class="weather-section">
+        <div class="weather-icon">
+          <i class="js-weather-icon"></i>
+        </div>
+        <div class="js-weather-temperature">
+          <span class="temp__now"></span>
+          <span class="temp__today"></span>
+        </div>
+        <span class="js-weather"></span>
+      </div>
+
       <div class="todo-section">
         <div class="todo-header">
           <span class="todo-header__content js-toDoHeader"></span>
@@ -31,9 +50,12 @@
       </div>
     </main>
 
-    <script src="js/getname.js"></script>
-    <script src="js/todo.js"></script>
     <script src="js/bg.js"></script>
+    <script src="js/getname.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/drag.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

@@ -1,0 +1,53 @@
+.weather-section {
+  width: var(--width-widget);
+  height: var(--heigth-weather);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px calc(var(--heigth-weather) - 100px);
+  position: absolute;
+  top: var(--height-clock);
+  width: var(--width-widget);
+  background-color: var(--color-widget);
+  font-size: 20px;
+  color: white;
+}
+
+.weather-icon {
+  font-size: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-weather-temperature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-weather-temperature span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp__now {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.temp__today {
+  font-size: 20px;
+}
+
+.js-weather {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 600;
+}
